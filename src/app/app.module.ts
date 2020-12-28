@@ -13,13 +13,12 @@ import { FirebaseService } from './services/firebase.service';
   imports: [
     BrowserModule,
     AngularFireModule.initializeApp({
-      apiKey: "AIzaSyCKPjgZbZ2mmUuDseHtx-gIhR3Fd_qgPG8",
-      authDomain: "fir-angular-auth-2822d.firebaseapp.com",
-      databaseURL: "https://fir-angular-auth-2822d.firebaseio.com",
-      projectId: "fir-angular-auth-2822d",
-      storageBucket: "fir-angular-auth-2822d.appspot.com",
-      messagingSenderId: "234306528370",
-      appId: "1:234306528370:web:a6df50f113c2e83094ceeb"
+      apiKey: "AIzaSyDPSLl5GeE-0oeShKU8GMVXRTOg0SJPwVI",
+      authDomain: "backendaas.firebaseapp.com",
+      projectId: "backendaas",
+      storageBucket: "backendaas.appspot.com",
+      messagingSenderId: "773584877793",
+      appId: "1:773584877793:web:9c689880fd0cdbe226dfa0"
     })
   ],
   providers: [FirebaseService],
